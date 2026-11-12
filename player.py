@@ -26,7 +26,7 @@ class Player(Turtle):
             self.goto(self.xcor(), new_y)
 
     def go_down(self):
-        if self.ycor() != -110:
+        if self.ycor() > STARTING_POSITION[1]:
             new_y = self.ycor() - MOVE_DISTANCE
             self.goto(self.xcor(), new_y)
 

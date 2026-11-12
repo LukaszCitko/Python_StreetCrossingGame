@@ -2,6 +2,12 @@
 
 A small desktop game made in 2021 with Python's built-in `turtle` module. Guide the turtle across the road while avoiding cars. Each successful crossing increases the level and the traffic speed.
 
+## Screenshots
+
+![Street Crossing Game at the start](Screenshot1.png)
+
+![Street Crossing Game during play](Screenshot2.png)
+
 ## Run locally
 
 You need Python 3 with Tkinter support and a desktop environment. The game has no third-party Python dependencies.
